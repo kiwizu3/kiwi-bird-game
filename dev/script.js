@@ -5,8 +5,8 @@ img.src = "https://i.ibb.co/Q9yv5Jk/flappy-bird-set.png";
 
 // general settings
 let gamePlaying = false;
-const gravity = .5;
-const speed = 6.2;
+const gravity = .4;
+const speed = 4.2;
 const size = [51, 36];
 const jump = -11.5;
 const cTenth = (canvas.width / 10);
@@ -20,7 +20,7 @@ let index = 0,
 
 // pipe settings
 const pipeWidth = 78;
-const pipeGap = 270;
+const pipeGap = 370;
 const pipeLoc = () => (Math.random() * ((canvas.height - (pipeGap + pipeWidth)) - pipeWidth)) + pipeWidth;
 
 const setup = () => {
