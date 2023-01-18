@@ -92,8 +92,8 @@ const render = () => {
     ctx.font = "bold 30px courier";
   }
 
-  document.getElementById('bestScore').innerHTML = `Best : ${bestScore}`;
-  document.getElementById('currentScore').innerHTML = `Current : ${currentScore}`;
+  document.getElementById('bestScore').innerHTML = `Best: ${bestScore}`;
+  document.getElementById('currentScore').innerHTML = `Current: ${currentScore}`;
 
   // tell the browser to perform anim
   window.requestAnimationFrame(render);
