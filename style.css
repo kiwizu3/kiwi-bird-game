@@ -38,3 +38,14 @@ h3 {
 .fs-title{
   font-size: 1.5rem;
 }
+
+.canvas-item{
+  max-width: 25rem !important;
+}
+
+.canvas-holder{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom right, #202020, #101010);
+}
